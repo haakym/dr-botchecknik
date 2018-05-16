@@ -1,6 +1,6 @@
 # Dr. BotCheckNik
 
-This project will check a specified URL for a specified piece of text at a specified time interval then alert you via telegram private message.
+This project will check a URL for a piece of text at a given time interval then will alert you via PM in telegram.
 
 I created this project so I can check when a product is back in stock on the sony website.
 
