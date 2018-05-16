@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+urlToCheck="https://centresdirect.co.uk/c-50-refurbished_audio_refurbished_audio.aspx#pgnum=&sort="
+regexp="MDR-1000X"
+
+# Telegram
+CHATID="12345678"
+KEY="YOUR-KEY"
+TIME="10"
+URL="https://api.telegram.org/bot$KEY/sendMessage"
+TEXT="${regexp} back in stock: ${urlToCheck}"
